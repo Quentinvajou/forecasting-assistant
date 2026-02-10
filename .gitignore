@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Django-specific
+*.log
+*.pot
+*.mo
+db.sqlite3
+/media
+/static
+
+# IDEs and other
+.vscode/
+.idea/
+.gemini/
+.DS_Store

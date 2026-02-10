@@ -1,0 +1,20 @@
+{
+    "name": "forecasting-assistant-1",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "workspaceFolder": "/workspaces/forecasting-assistant",
+    "forwardPorts": [8000],
+    // "postCreateCommand": "pip install --no-cache-dir -r .devcontainer/requirements.txt && echo 'TODO: Add Django specific post-create commands here, e.g., python manage.py migrate'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "batisteo.vscode-django"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
