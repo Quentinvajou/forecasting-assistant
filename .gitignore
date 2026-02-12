@@ -25,3 +25,6 @@ db.sqlite3
 .idea/
 .gemini/
 .DS_Store
+
+# Database / Loaded content
+*.jpg
